@@ -40,7 +40,7 @@ export default function SessionLeft(){
             <div className={styles.cardScroll}>
               <div className={styles.paddingCard}>
                 <strong>Que tal seguir um podcast novo ?</strong>
-                <span>Avisaremos você sobre novos eísódios</span>
+                <span>Avisaremos você sobre novos episódios</span>
                 <Button text="Explore poscasts" />
               </div>
             </div>
