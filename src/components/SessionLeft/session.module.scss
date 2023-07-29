@@ -1,0 +1,197 @@
+
+.sessionLeft {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    height: 100%;
+    min-width: 368px;
+    padding: .5rem;
+  }
+  
+  .card {
+    background-color: var(--gray-black-10);
+    border-radius: 8px;
+    cursor: default;
+  
+    ul {
+      padding: 8px 12px;
+  
+      li {
+        list-style: none;
+        padding: 4px 12px;
+  
+        a {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          height: 40px;
+  
+          span {
+            min-width: 24px;
+            font-size: 29px;
+          }
+  
+          strong {}
+        }
+      }
+    }
+  }
+  
+  .scroll {
+    position: relative;
+    border-radius: 8px;
+    background-color: var(--gray-black-10);
+    overflow-x: auto;
+    height:  55%;
+      
+    &::-webkit-scrollbar-track {
+     background-color: transparent
+    }
+  
+    &::-webkit-scrollbar {
+      width: 5px;
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      background-color: rgba($color: #fff, $alpha: .5);
+      border-radius: 2.5px;
+      height: 10px;
+    }
+  
+  
+    .header {
+      width: 100%;
+      position: fixed;
+      width: 19%;
+      min-width: 345px;
+      display: flex;
+      z-index: 1;
+      justify-content: space-between;
+      align-items: center;
+      height: 52px;
+      background-color: var(--gray-black-10);
+      padding: 24px 24px;
+  
+      .title {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+  
+        span {
+          min-width: 24px;
+          font-size: 29px;
+        }
+      }
+    }
+  
+    div:nth-child(2n) {
+      margin-top: 4rem;
+      margin-bottom: 1.8rem;
+    }
+  
+    .cardScroll {
+      border-radius: 8px;
+      background-color: var(--gray-black);
+      margin: 5px;
+    }
+  
+    .paddingCard {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      margin: 10px 10px;
+      padding: 16px 24px;
+      border-radius: 8px;
+      background-color: var(--gray-black);
+    }
+  }
+  
+
+  
+.footerSessionLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: var(--gray-black-10);
+    height: 32%;
+    padding: 16px 24px;
+  
+    .btnLenguage{
+      display: flex;
+      align-items: center;
+      border:1px solid #CCC;
+      background-color: transparent;
+      color: #FFF;
+      height: 32px;
+      border-radius: 24px;
+      padding-left: 16px;
+      padding-right: 16px;
+      gap: 5px;
+      width: fit-content;
+      cursor: pointer;
+  
+      &:hover{
+        transform: scale(1.04);
+    }
+    }
+  }
+  
+  
+  .sessionRight {
+    margin: 0.5rem 0rem 0.5rem ;
+    background-color: #CCC;
+    width: 100%;
+  
+  }
+  
+  .contain{
+    width: 100%;
+    height: 90vh;
+    overflow: auto;
+    padding: 1rem;
+    background-color: var(--gray-black-10);
+  
+    strong{
+      font-size: 1.5rem;
+    }
+  }
+  
+  .containerCarrossel{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  
+  .containerHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+  }
+  
+  .cardMusic{
+    flex: 1;
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: var(--gray-black);
+    height: 281px;
+  
+    img{
+      width: 100%;
+      height: 60%;
+      border-radius: .5rem;
+      object-fit: cover;
+    }
+  
+    .body{
+      padding-top: .5rem;
+  
+      p{
+        font-size: .9rem;
+        margin-top: .5rem;
+        color: rgba($color: #fff, $alpha: .5);
+      }
+    }
+  
+  }

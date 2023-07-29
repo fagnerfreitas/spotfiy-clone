@@ -1,0 +1,34 @@
+:root {
+  --gray-black:#242424;
+  --gray-black-10:#121212;
+  --black:#000;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+body {
+  color:#FFF;
+  background-color: var(--black);
+  font-size: 16px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
